@@ -1,0 +1,9 @@
+@import "compass/css3";
+@import "compass/utilities/sprites";
+$icons-spacing: 10px;
+$icons-layout:smart;
+$icons-sprite-dimensions:true;
+$icons-sprite-base-class:'.sprite-img';
+@import "icons/*.png";
+@include all-icons-sprites;
+
